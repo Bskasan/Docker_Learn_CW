@@ -7,6 +7,8 @@ WORKDIR /app
 # Move docs & Files
 # COPY app.py /app
 COPY . .
+
+# After run command!
 CMD python app.py
 
 
