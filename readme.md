@@ -16,4 +16,8 @@ Virtual Machines : An abstraction of a machine
 
 DOCKER FILE ----> docker build ----> DOCKER IMAGE ---> docker run ---> DOCKER CONTAINER
 
+### INSTALLATION
+
+https://www.docker.com/
+
 
