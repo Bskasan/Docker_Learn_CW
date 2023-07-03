@@ -12,4 +12,8 @@ Virtual Machines : An abstraction of a machine
 <img width="808" alt="1" src="https://github.com/Bskasan/Docker_Learn_CW/assets/53233822/ef1806fa-1933-4804-8101-52c61809cdd1">
 
 ### Docker File
-- Docker File is a text document that contains all the commands a user could call on the command line to assemble an image. Using Docker build, users can create an automated build that executes several command-line instructions in succession. Docker can build
+- Docker File is a text document that contains all the commands a user could call on the command line to assemble an image. Using Docker build, users can create an automated build that executes several command-line instructions in succession. Docker can build images automatically by reading the instructions from Docker File.
+
+DOCKER FILE ----> docker build ----> DOCKER IMAGE ---> docker run ---> DOCKER CONTAINER
+
+
