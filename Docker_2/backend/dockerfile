@@ -1,1 +1,20 @@
+FROM python:3.10.8-slim-bullseye
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /backend
+
+COPY . .
+
+# Build
+RUN pip install -r requirements.txt 
+# without cache -> --no-cache-dir 
+
+# Run
+CMD python manage.py runserver 0.0.0.1:8000
+EXPOSE 8000
+
+
+
+
 
