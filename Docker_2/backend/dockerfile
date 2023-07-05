@@ -12,6 +12,7 @@ RUN pip install -r requirements.txt
 
 # Run
 CMD python manage.py runserver 0.0.0.1:8000
+# Optional
 EXPOSE 8000
 
 
